@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
-from scipy.io import loadmat, savemat   
 import numpy as np
-import sys 
 import pickle 
 
 
@@ -11,19 +9,16 @@ with open('pickles_for_plot/newcollege_first_vlad.pkl','rb') as f:
 with open('pickles_for_plot/newcollege_first_seq.pkl','rb') as f:  
     pr2 = pickle.load(f)
 
-with open('pickles_for_plot/newcollege_first_dbow.pkl','rb') as f:  
-    pr3 = pickle.load(f)
-
 
 plt.plot(pr1[:, 1], pr1[:, 0], '--')
 plt.plot(pr2[:, 1], pr2[:, 0], '-.')
-plt.plot(pr3[:, 1], pr3[:, 0], '-')
+
 plt.title('PR Curve')
 plt.xlabel('Recall')
 plt.ylabel('Precision')
 plt.axis([0, 1.05, 0, 1.05])
 plt.grid()
-plt.legend(['vlad', 'seq', 'dbow'], loc="upper right")
+plt.legend(['vlad', 'seq'], loc="upper right")
 plt.show()
 
 
