@@ -17,7 +17,7 @@
    - Go to the folder `2_dbow`
    - Run `loop-closure` to generate confusion matrix, and then use the script `conver_to_mat.py` to convert the txt file to mat file
    - Go to the folder `3_seqslam`
-- Run the file `loop_closure.py` after setting the paths inside
+   - Run the file `loop_closure.py` after setting the paths inside
    - To compare three PR curves, use `plot_PR.py` by setting paths to the pickle files just generated  `loop_closure.py`
    
    
