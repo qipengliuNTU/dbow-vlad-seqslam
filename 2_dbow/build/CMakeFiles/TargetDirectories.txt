@@ -1,0 +1,3 @@
+/home/mz/test_2_25_vlad+newcollege/3_dbow/build/CMakeFiles/rebuild_cache.dir
+/home/mz/test_2_25_vlad+newcollege/3_dbow/build/CMakeFiles/edit_cache.dir
+/home/mz/test_2_25_vlad+newcollege/3_dbow/build/CMakeFiles/loop_closure.dir
