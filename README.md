@@ -3,7 +3,7 @@
 1. Reproduce the results in our paper
 
    ```bash
-   $ cd 2_seqslam
+   $ cd 3_seqslam
    
    $ python plot_PR.py
    ```
@@ -14,8 +14,11 @@
    - Run the Jupyter Notebook file 
    - Set up all paths according to the instruction inside.
    - Finally generate the confusion matrix mat file
-   - Go to the folder `2_seqslam`
-   - Run the file `loop_closure.py` after setting the paths inside
-   - To compare two PR curves, use `plot_PR.py` by setting paths to the pickle files generated from two datasets 
-
+   - Go to the folder `2_dbow`
+   - Run `loop-closure` to generate confusion matrix, and then use the script `conver_to_mat.py` to convert the txt file to mat file
+   - Go to the folder `3_seqslam`
+- Run the file `loop_closure.py` after setting the paths inside
+   - To compare three PR curves, use `plot_PR.py` by setting paths to the pickle files just generated  `loop_closure.py`
    
+   
+
