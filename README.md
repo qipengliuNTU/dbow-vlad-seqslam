@@ -12,7 +12,7 @@
 
    - Go to the folder `1_vlad`
    - Run the Jupyter Notebook file 
-   - Set up all paths according to the instruction inside.
+   - Set up all paths according to the instruction inside. To reduce the size, I didn't include the images in this repo. You can download the datasets easily from the web.
    - Finally generate the confusion matrix mat file
    - Go to the folder `2_dbow`
    - Run `loop-closure` to generate confusion matrix, and then use the script `conver_to_mat.py` to convert the txt file to mat file
